@@ -1,0 +1,4 @@
+<h1> <%= @author.name %> </h1>
+
+  <p> Book Titles: <%= @author.books.book_titles.join(", ") %> </p>
+  <p> Average Pages: <%= @author.books.average_pages.to_i %> </p>
